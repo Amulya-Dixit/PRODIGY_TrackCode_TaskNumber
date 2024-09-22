@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 1000;
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar li a:hover {
+    color: #ff4500;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227, 74, 56);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+}
+
+.section1 {
+    margin-top: 80px; /* To avoid content being hidden under the fixed navbar */
+    color: #711e15;
+}
+
+.section1 h1 {
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .gymimg{
+    width: 466px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #e34a38;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d43b2c;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
